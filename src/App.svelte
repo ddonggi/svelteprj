@@ -1,4 +1,5 @@
 <script>
+	import Router from 'svelte-spa-router'
 	import Header from './components/header.svelte';
 	import Footer from './components/footer.svelte';
 	import Section from './components/section.svelte';
