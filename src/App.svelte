@@ -1,17 +1,17 @@
 <script>
 	import Router from 'svelte-spa-router'
-	import Header from './components/header.svelte';
-	import Footer from './components/footer.svelte';
-	import Section from './components/section.svelte';
+	import routes from './routers/routers.js'
 	export let name;
 	export let age;
+	export let director
 </script>
 
 <main>
-	<Header/>
-	<Section {name}/>
-	<div> my age is {age}</div>
-	<Footer/>
+<!--	<Header/>-->
+<!--	<Section {name}/>-->
+<!--	<div> my age is {age}</div>-->
+<!--	<Footer/>-->
+	<Router {routes} {name} {age} {director}/>
 </main>
 
 <style>

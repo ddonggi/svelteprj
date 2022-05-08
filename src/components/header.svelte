@@ -1,5 +1,7 @@
-<header>
+<script>
 
+</script>
+<header>
     <div>
         main
     </div>
@@ -10,3 +12,9 @@
         join in
     </div>
 </header>
+
+<style>
+    header{
+        display: flex;
+    }
+</style>

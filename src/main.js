@@ -4,7 +4,8 @@ const app = new App({
 	target: document.body,
 	props: {
 		name: 'Dekay!!',
-		age:31
+		age:31,
+		director:'이동기'
 	}
 });
 
