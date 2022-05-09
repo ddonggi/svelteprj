@@ -3,7 +3,7 @@ import Header from '../components/header.svelte';
 import Footer from '../components/footer.svelte';
 import IndexSection from '../components/indexSection.svelte';
 let pkgs = {
-    name:'기동이',
+    name:'기동이다',
     age:31,
     src:'https://upload.wikimedia.org/wikipedia/commons/f/f3/Meow_cat_-_Mdebona.jpg'
 }
