@@ -1,9 +1,9 @@
 import IndexView from '../views/index.svelte'
-// import ImageView from './ImageView.svelte'
+import JoinView from '../views/member/join.svelte'
 
 const routes = {
-    '/': IndexView
-    // '/img': ImageView,
+    '/': IndexView,
+    '/join': JoinView,
 }
 
 export default routes
