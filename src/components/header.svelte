@@ -1,6 +1,3 @@
-<script>
-
-</script>
 <header>
     <div class="header-container">
         <div class="main-button">
