@@ -9,11 +9,11 @@
 <section>
     <h1>Hello {name}</h1>
     <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-    <button text on:click={ () => push("/join")}>go to join!</button>
     <img {src} alt="{name} image">
-    <div> my age is {age}
+    <div> my age is {age}<br>
         {@html description}
     </div>
+    <button text on:click={ () => push("/join")}>go to join!</button>
 </section>
 
 <style>

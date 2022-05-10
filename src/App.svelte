@@ -12,7 +12,8 @@
 <style>
 	main {
 		text-align: center;
-		max-width: 240px;
+		/*max-width: 240px;*/
+		width: 100%;
 		margin: 0 auto;
 	}
 </style>
