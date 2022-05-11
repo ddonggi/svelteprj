@@ -11,7 +11,7 @@
     <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
     <img {src} alt="{name} image">
     <div> my age is {age}<br>
-        {@html description}
+        {@html description} test description
     </div>
     <button text on:click={ () => push("/join")}>go to join!</button>
 </section>
