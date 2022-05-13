@@ -4,6 +4,5 @@
     import Footer from '../../components/indexFooter.svelte'
 </script>
 
-<Header/>
 <JoinSection/>
 <Footer/>
