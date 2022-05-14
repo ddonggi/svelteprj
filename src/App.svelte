@@ -3,6 +3,7 @@
 	import routes from './routers/routers.js'
 	export let name;
 	export let age;
+	export let id;
 	export let director
 </script>
 

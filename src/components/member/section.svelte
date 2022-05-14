@@ -4,7 +4,7 @@
 </script>
 <section>
     <p>hi</p>
-    <button text on:click={ () => push("/")}>go to index</button>
+    <button text on:click={ () => push("/")}>go to landing</button>
 </section>
 <style>
 
