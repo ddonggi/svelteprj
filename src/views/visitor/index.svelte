@@ -1,7 +1,7 @@
 <script>
-    import Header from '../components/header.svelte';
-    import Footer from '../components/indexFooter.svelte';
-    import VisitorSection from '../../components/visitor/section.svelte';
+    import Header from '/components/visitor/header.svelte';
+    import Footer from '/components/indexFooter.svelte';
+    import VisitorSection from '/components/visitor/section.svelte';
     let sectionPackage = {
         name:'기동이다',
         age:31,
