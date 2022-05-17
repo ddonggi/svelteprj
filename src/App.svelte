@@ -1,10 +1,10 @@
 <script>
 	import Router from 'svelte-spa-router'
 	import routes from './routers/routers.js'
-	export let name;
-	export let age;
-	export let id;
-	export let director
+	// export let name;
+	// export let age;
+	// export let id;
+	// export let director;
 </script>
 
 <main>
