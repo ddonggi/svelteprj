@@ -6,3 +6,4 @@
 
 <Header/>
 <Section/>
+<Footer/>
