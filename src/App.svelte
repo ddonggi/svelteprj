@@ -1,6 +1,6 @@
 <script>
 	import Router from 'svelte-spa-router'
-	import routes from './routers/routers.js'
+	import routers from './routers/routers.js'
 	// export let name;
 	// export let age;
 	// export let id;
@@ -8,7 +8,7 @@
 </script>
 
 <main>
-	<Router {routes}/>
+	<Router {routers}/>
 </main>
 <style>
 	main {
