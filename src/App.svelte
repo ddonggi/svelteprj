@@ -1,14 +1,14 @@
 <script>
 	import Router from 'svelte-spa-router'
-	import routers from './routers/routers.js'
-	// export let name;
-	// export let age;
-	// export let id;
-	// export let director;
+	import routes from './routers/routers.js'
+	export let name;
+	export let age;
+	export let kid;
+	console.log('app.sv!');
 </script>
 
 <main>
-	<Router {routers}/>
+	<Router {routes}/>
 </main>
 <style>
 	main {

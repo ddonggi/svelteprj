@@ -1,4 +1,4 @@
-import LandingView from '../views/landing.svelte'
+import LandingView from '../views/visitor/landing.svelte';
 import JoinView from '../views/member/join.svelte'
 import VisitorView from '../views/visitor/index.svelte'
 
@@ -9,4 +9,4 @@ const routes = {
     '/dglee':VisitorView
 }
 
-export default routes
+export default routes;
