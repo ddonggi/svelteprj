@@ -1,5 +1,5 @@
 <script>
-    export let kid;
+    export let kid = "dd";
 </script>
 <footer>
     <div>

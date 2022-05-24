@@ -3,7 +3,7 @@
     export let name;
     export let age;
     export let src = 'https://i1.sndcdn.com/artworks-WkxGw85lhDbxVBfB-pe9z8Q-t500x500.jpg';
-    let description = `this is my first <strong><a href="/#/join"> Svelte Project!</a></strong>`;
+    let description = `this is my first <strong><a href="/join"> Svelte Project!</a></strong>`;
 </script>
 
 <section>
@@ -16,7 +16,7 @@
     <button text on:click={ () => push("/join")}>go to join!</button>
 </section>
 
-<style>
+<style lang="scss">
 
     h1 {
         color: #ff3e00;
