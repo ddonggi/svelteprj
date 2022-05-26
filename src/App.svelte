@@ -4,7 +4,6 @@
 	export let name;
 	export let age;
 	export let kid;
-	console.log('app.sv!');
 </script>
 
 <main>
