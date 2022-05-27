@@ -8,5 +8,5 @@
 
 <Header/>
 <Section/>
-<Footer kid="멀까"/>
+<Footer kid=""/>
 
