@@ -3,7 +3,7 @@
 	import routes from './routers/routers.js'
 	export let name;
 	export let age;
-	export let kid;
+	export let kid="오옹";
 </script>
 
 <main>
