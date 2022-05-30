@@ -1,14 +1,15 @@
 <script>
-    import Header from '../../components/header.svelte';
-    import Footer from '../../components/indexFooter.svelte';
-    import VisitorSection from '../../components/visitor/section.svelte';
-    let sectionPackage = {
-        name:'기동이다',
-        age:31,
-        src:'https://upload.wikimedia.org/wikipedia/commons/f/f3/Meow_cat_-_Mdebona.jpg'
-    }
-    export let kid;
+    import { userName } from '../../store/store.js';
+    import Header from '../../components/header.svelte'
+    import Section from '../../components/section.svelte'
+    import Footer from '../../components/footer.svelte'
+    console.log('writable username:',userName);
+    console.log('print data:',$userName); //$를 쓰면 데이터 출력
+
+    let name = "동기";
+
+    $userName=name;
 </script>
 <Header/>
-<VisitorSection {...sectionPackage}/>
-<Footer kid="동기"/>
+<Section/>
+<Footer/>

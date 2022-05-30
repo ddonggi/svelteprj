@@ -1,0 +1,24 @@
+<script>
+</script>
+<footer>
+    <div>
+        company :
+    </div>
+    <div class="footer-container">
+
+    </div>
+</footer>
+<style>
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    .footer-container{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-item{
+        margin:0 1vw;
+    }
+</style>

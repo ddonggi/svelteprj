@@ -1,12 +1,11 @@
-import LandingView from '../views/visitor/landing.svelte';
+import VisitorView from '../views/visitor/user.svelte';
 import JoinView from '../views/member/join.svelte'
-import VisitorView from '../views/visitor/index.svelte'
+import IndexView from '../views/visitor/index.svelte'
 
 const routes = {
-    '/': LandingView,
+    '/': IndexView,
     '/join': JoinView,
-    '/:id': VisitorView,
-    '/dglee':VisitorView
+    '/:id': VisitorView
 }
 
 export default routes;

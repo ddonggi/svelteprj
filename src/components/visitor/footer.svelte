@@ -1,9 +1,9 @@
 <script>
-    export let kid = "dd";
+    import { userName } from "../../store/store.js";
 </script>
 <footer>
     <div>
-        {kid} 의 소중한 모습
+        {$userName}의 소중한 모습
     </div>
     <div class="footer-container">
         <div class="footer-item baby">

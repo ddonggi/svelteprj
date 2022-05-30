@@ -1,9 +1,6 @@
 <script>
 	import Router from 'svelte-spa-router'
 	import routes from './routers/routers.js'
-	export let name;
-	export let age;
-	export let kid="오옹";
 </script>
 
 <main>
