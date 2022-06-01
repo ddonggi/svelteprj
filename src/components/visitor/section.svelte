@@ -1,6 +1,6 @@
 <script>
     import {push} from 'svelte-spa-router'
-    export let params = {};
+    export let params;
     export let name;
     export let age;
     export let src = 'https://i1.sndcdn.com/artworks-WkxGw85lhDbxVBfB-pe9z8Q-t500x500.jpg';

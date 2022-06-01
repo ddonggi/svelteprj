@@ -7,9 +7,10 @@
         age:31,
         src:'https://upload.wikimedia.org/wikipedia/commons/f/f3/Meow_cat_-_Mdebona.jpg'
     }
-    export let kid;
+    let params = {};
+    console.log('params id:',params.id)
 </script>
 <Header/>
 <VisitorSection {...sectionPackage}/>
-<Footer kid="동기"/>
+<Footer {params}/>
 
