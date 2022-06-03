@@ -8,7 +8,7 @@
 </script>
 
 <section>
-    <h1>Hello {name}, id : {params.id}</h1>
+<!--    <h1>Hello {name}, id : {params.id}</h1>-->
     <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
     <img {src} alt="{name} image">
     <div> my age is {age}<br>
