@@ -1,9 +1,9 @@
 <script>
-    export let params={id:'dglee'};
+    export let params={id:'dglee',company:'donggi'};
 </script>
 <footer>
     <div>
-        company :
+        company : {params.company}
     </div>
     <div class="footer-container">
         id : {params.id}
