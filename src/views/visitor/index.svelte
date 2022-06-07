@@ -5,9 +5,6 @@
     import Footer from '../../components/footer.svelte'
     console.log('writable username:',userName);
     console.log('print data:',$userName); //$를 쓰면 데이터 출력
-
-    let name = "동기";
-
     $userName=name;
 </script>
 <Header/>
