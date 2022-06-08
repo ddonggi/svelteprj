@@ -7,3 +7,8 @@
     <button text on:click={ () => push("/join")}>go to join</button>
     <button text on:click={ () => push("/dglee")}>go to dglee page</button>
 </section>
+<style>
+    @media screen {
+        
+    }
+</style>

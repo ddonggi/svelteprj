@@ -1,6 +1,6 @@
-import VisitorView from '../views/visitor/user.svelte';
+import VisitorView from '../views/user/user.svelte';
 import JoinView from '../views/member/join.svelte'
-import IndexView from '../views/visitor/index.svelte'
+import IndexView from '../views/index.svelte'
 
 const routes = {
     '/': IndexView,
