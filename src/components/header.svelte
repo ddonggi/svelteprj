@@ -7,7 +7,7 @@
             log in
         </div>
         <div class="join-button">
-            join in
+            sing-up
         </div>
     </div>
     <div class="nav-button-container">
