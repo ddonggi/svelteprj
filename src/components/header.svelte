@@ -4,7 +4,7 @@
             main
         </div>
         <div class="login-button">
-            log in
+            sign-in
         </div>
         <div class="join-button">
             sing-up
