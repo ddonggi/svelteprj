@@ -30,7 +30,7 @@
 
     </div>
 </footer>
-<style>
+<style lang="scss">
     footer{
         position: fixed;
         bottom: 0;
@@ -42,5 +42,12 @@
     }
     .footer-item{
         margin:0 1vw;
+        background: wheat;
+        width: 120px;
+        height: 64px;
+
+    }
+    .baby{
+      background: #666666;
     }
 </style>
