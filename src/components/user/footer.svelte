@@ -35,18 +35,19 @@
         position: fixed;
         bottom: 0;
         width: 100%;
-    }
-    .footer-container{
+      .footer-container{
         display: flex;
         justify-content: center;
-    }
-    .footer-item{
+      }
+      .footer-item{
         margin:0 1vw;
         background: wheat;
         width: 120px;
         height: 64px;
 
+      }
     }
+
     .baby{
       background: #666666;
     }
