@@ -51,4 +51,7 @@
     .baby{
       background: #666666;
     }
+    .sixties{
+      background: silver;
+    }
 </style>
