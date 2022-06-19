@@ -1,32 +1,60 @@
+<script>
+    import Fa from 'svelte-fa'
+    import { faFlag } from '@fortawesome/free-solid-svg-icons'
+</script>
 <header>
-    <div class="header-container">
-        <div class="main-button">
-            main
-        </div>
-        <div class="login-button">
-            sign-in
-        </div>
-        <div class="join-button">
-            sing-up
-        </div>
-    </div>
-    <div class="nav-button-container">
-        <div class="nav-button">burger</div>
-    </div>
+    <nav class="navigation">
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="icon"><Fa icon={faFlag} /></span>
+                    <span class="title">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"></span>
+                    <span class="title">Profile</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"></span>
+                    <span class="title">Message</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"></span>
+                    <span class="title">Help</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"></span>
+                    <span class="title">Password</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"></span>
+                    <span class="title">Sign Out</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <button>
+        Sign Up
+    </button>
 </header>
 
-<style>
-    header{
-        position:relative;
-        display: flex;
-        width: 100%;
-    }
-    .header-container{
-        display: flex;
-        justify-content: space-around;
-        width: 80%;
-    }
-    .nav-button-container{
-        width: 20%;
+<style lang="scss">
+    /* For Desktop*/
+    @media (min-width: 640px) {
+        header {
+            position: relative;
+            display: flex;
+            width: 100%;
+        }
     }
 </style>
