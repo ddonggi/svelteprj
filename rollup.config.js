@@ -39,10 +39,10 @@ export default {
 	},
 	plugins: [
 		svelte({
+			preprocess: sveltePreprocess(), // preprocess 등록
 			compilerOptions: {
 				// enable run-time checks when not in production
 				dev: !production,
-				preprocess: sveltePreprocess(), // preprocess 등록
 			}
 		}),
 		// we'll extract any component CSS out into
