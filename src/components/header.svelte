@@ -1,6 +1,6 @@
 <script>
     import Fa from 'svelte-fa'
-    import { faFlag } from '@fortawesome/free-solid-svg-icons'
+    import { faFlag ,faGolfBall} from '@fortawesome/free-solid-svg-icons'
 </script>
 <header>
     <nav class="navigation">
@@ -13,7 +13,7 @@
             </li>
             <li>
                 <a href="#">
-                    <span class="icon"></span>
+                    <span class="icon"><Fa icon={faGolfBall}/></span>
                     <span class="title">Profile</span>
                 </a>
             </li>
@@ -43,6 +43,9 @@
             </li>
         </ul>
     </nav>
+    <div>
+        <span class="menu"></span>
+    </div>
     <button>
         Sign Up
     </button>
