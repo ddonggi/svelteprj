@@ -1,6 +1,6 @@
 <script>
     import Fa from 'svelte-fa'
-    import { faFlag ,faGolfBall} from '@fortawesome/free-solid-svg-icons'
+    import { faFlag ,faGolfBall, faMessage} from '@fortawesome/free-solid-svg-icons'
 </script>
 <header>
     <nav class="navigation">
@@ -19,7 +19,7 @@
             </li>
             <li>
                 <a href="#">
-                    <span class="icon"></span>
+                    <span class="icon"><Fa icon={faMessage}/></span>
                     <span class="title">Message</span>
                 </a>
             </li>
