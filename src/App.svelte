@@ -33,6 +33,7 @@
 		transform: translate(-80%, 0) rotate(-30deg);
 		transform-origin: 100% 100%;
 		transition: transform 0.4s;
+		border-radius: 50%;
 	}
 
 	.curious {
