@@ -1,7 +1,7 @@
 <script>
     import Header from '../../components/header.svelte';
-    import UserSection from '../../components/user/section.svelte';
-    import Footer from '../../components/user/footer.svelte';
+    import UserSection from '../../components/bio/section.svelte';
+    import Footer from '../../components/bio/footer.svelte';
     let sectionPackage = {
         name:'디케이',
         age:31,

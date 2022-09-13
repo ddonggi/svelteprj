@@ -6,7 +6,7 @@
     <nav class="navigation">
         <ul>
             <li>
-                <a href="#">
+                <a href="/">
                     <span class="icon"><Fa icon={faHouse} /></span>
                     <span class="title">Home</span>
                 </a>
