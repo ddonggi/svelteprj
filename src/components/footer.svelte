@@ -1,12 +1,12 @@
 <script>
-    export let params={id:'dglee',company:'donggi'};
+    export let params={};
 </script>
 <footer>
     <div>
-        company : {params.company}
+        footer : {params.company}
     </div>
     <div class="footer-container">
-        id : {params.id}
+        footer2 : {params.id}
     </div>
 </footer>
 <style>

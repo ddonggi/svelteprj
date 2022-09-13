@@ -1,11 +1,11 @@
-import VisitorView from '../views/user/user.svelte';
+import BioView from '../views/bio/bio.svelte';
 import JoinView from '../views/member/join.svelte'
 import IndexView from '../views/index.svelte'
 
 const routes = {
     '/': IndexView,
     '/join': JoinView,
-    '/:id': VisitorView
+    '/:id': BioView
 }
 
 export default routes;
