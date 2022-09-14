@@ -14,10 +14,14 @@
     console.log('params id:',params.id)
 </script>
 
-{#if params.id === "dglee"}
-    <Header/>
-    <UserSection {...sectionPackage}/>
-    <Footer {params}/>
+{#if params.id.length}
+    {#if params.id ==="dglee"}
+        <Header/>
+        <UserSection {...sectionPackage}/>
+        <Footer {params}/>
+    {:else}
+        <Index/>
+    {/if}
 {:else}
    <Index/>
 {/if}
